@@ -17,5 +17,62 @@ body {
 }
 
 .title-logo {
-  margin-top: 20px
+  margin-top: 20px;
+}
+
+.fa {
+  font-size: 125px;
+}
+
+.about {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold
+}
+
+p {
+  color: #000000;
+  font-size: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #747704;
+}
+
+a {
+  font-size: 20px;
+}
+
+.col-md-4 {
+  padding-bottom: 15px;
+}
+
+.col-md-6 .title-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.feature {
+  color: grey;
+}
+
+@media screen and (max-width: 992px) {
+  .feature {text-align: center;}
+}
+
+.contact i {
+  font-size: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+}
+
+.img-responsive {
+  display: inline-block;
 }
